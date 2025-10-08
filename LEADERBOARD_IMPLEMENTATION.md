@@ -138,3 +138,4 @@ interface LeaderboardEntry {
 Navigate to the "Leaderboard" section in the sidebar to see the complete rankings with real Firebase data integration!
 
 The leaderboard successfully uses Google Firebase data to display top-performing students based on AI resume analysis scores, providing HR professionals with a powerful tool for student identification and monitoring.
+

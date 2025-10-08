@@ -46,3 +46,4 @@ export interface HRDashboardStats {
   averageScore: number;
   topSkills: { skill: string; count: number }[];
 }
+

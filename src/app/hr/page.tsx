@@ -8,7 +8,7 @@ import Sidebar from '@/components/Sidebar';
 import Dashboard from '@/components/Dashboard';
 import Students from '@/components/Students';
 import ResumeAnalysis from '@/components/ResumeAnalysis';
-import Leaderboard from '@/components/Leaderboard';
+import LeaderboardStatic from '@/components/LeaderboardStatic';
 import ConnectionStatus from '@/components/ConnectionStatus';
 import { 
   BarChart3, 
@@ -112,8 +112,8 @@ export default function HRDashboard() {
         return <Dashboard stats={stats} />;
       case 'students':
         return <Students />;
-      case 'leaderboard':
-        return <Leaderboard />;
+        case 'leaderboard':
+          return <LeaderboardStatic />;
       case 'applications':
         return <ResumeAnalysis />;
       case 'analytics':

@@ -266,3 +266,4 @@ export const sampleJobApplications = [
     resumeAnalysisId: 'analysis5'
   }
 ];
+

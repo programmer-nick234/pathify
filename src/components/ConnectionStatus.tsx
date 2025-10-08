@@ -96,3 +96,4 @@ export default function ConnectionStatus({ onRetry }: ConnectionStatusProps) {
     </div>
   );
 }
+

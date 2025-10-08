@@ -104,3 +104,4 @@ Route (app)                         Size  First Load JS
 **https://github.com/programmer-nick234/pathify.git**
 
 **🚀 Your complete HR platform is now available on GitHub and ready for deployment!**
+

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { collection, getDocs, query, orderBy, limit, where } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { User, ResumeAnalysis, JobApplication } from '@/types';
+import { sortedLeaderboardData, leaderboardStats } from '@/data/staticLeaderboardData';
 import { 
   Trophy, 
   Medal, 
