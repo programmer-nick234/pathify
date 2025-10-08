@@ -1,7 +1,7 @@
 // Enhanced database seeding utility with comprehensive leaderboard data
 // Run this script to populate Firebase with realistic sample data for testing
 
-import { collection, addDoc, setDoc, doc } from 'firebase/firestore';
+import { setDoc, doc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 
 export const comprehensiveSampleUsers = [

@@ -2,7 +2,7 @@
 // This script tests if Firebase is properly connected
 
 import { initializeApp } from 'firebase/app';
-import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyAz0VpCs-yPNzdPTOofMvrsDU-Q8YX-UiA",

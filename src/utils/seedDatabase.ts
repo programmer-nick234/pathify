@@ -1,7 +1,7 @@
 // Database seeding utility
 // Run this script to populate Firebase with sample data for testing
 
-import { collection, addDoc, setDoc, doc } from 'firebase/firestore';
+import { setDoc, doc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { sampleUsers, sampleResumeAnalyses, sampleJobApplications } from '@/data/sampleData';
 
